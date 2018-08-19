@@ -1,0 +1,202 @@
+.clearfix {
+	display:block;
+	clear:both;
+}
+
+#top-nav {
+	background-color: white;
+	padding: 18px 0;
+	position: fixed;
+	z-index: 5;
+	width: 100%;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateZ(0);
+}
+
+#schild {
+	margin-top: 20px;
+	margin-left: 80px;
+}
+
+#top-text {
+	margin-top: -50px;
+}
+
+#menu {
+	float: right;
+}
+
+#top-content{
+	background: url("../images/bg.jpg") repeat-x top center;
+	background-size:cover ; /*cover all element*/
+	padding: 130px 0 80px 0;
+}
+
+#grid-content{
+	background: url("../images/grid-bg.png");
+	padding: 80px;
+}
+
+.slides{
+	width: 100%;
+}
+
+#griding {
+	margin: 0 auto;
+	display: block;
+}
+
+h1, .wt-1, .cta, h2, p, span, h4 {
+	font-family: 'Source Sans Pro';
+}
+
+h1, .wt-l, h4{
+	color: #fff;
+}
+
+h1 {
+	font-size: 4em;
+	margin-top: 50px;
+}
+
+.wt-l {
+	font-size: 1.3em;
+	line-height: 1.5em;
+	padding-bottom: 25px;
+}
+
+.social-buttons {
+	width: 50%;
+}
+
+.cta {
+	-moz-border-radius: 8px;
+	padding: 13px 10px 13px 50px;
+	font-size: 1.4em;
+	text-indent: 20px;
+	margin-top: 25px;
+}
+
+.more-button {
+	position: absolute;
+	top: 360px;
+	left: 85px;
+	z-index: 10;
+}
+
+#photoslider-content {
+	background-color: #368288;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#photoslider {
+	padding: 20px;
+	background-color: white;
+}
+
+h2 {
+	text-align: center;
+	margin: -10px 0 80px 0;
+	font-size: 3em;
+}
+
+.sub-title {
+	display:block;
+	font-size: 1.7em;
+	margin: 20px 0 10px 0;
+}
+
+.activities{
+	text-align: center;
+	z-index: 1;
+}
+
+p {
+	font-size: 1.1em;
+	line-height: 1.2em;
+}
+
+#support-content {
+	background: url("../images/honeycomb-bg.png");
+	padding: 150px;
+}
+
+#testimonial-content{
+	background: #f0f0f0 url("../images/quote.png") 20% 50% fixed no-repeat;
+	padding: 120px;
+	margin-bottom: 500px;
+}
+
+.title {
+	font-size: 1.7em;
+}
+
+.fadeInBlock {
+	opacity:0;
+}
+
+#svg {
+	width: 40%;
+	margin: 0 auto;
+	display: block;
+	visibility: hidden;
+}
+
+.auth-img{
+	text-align: center;
+}
+
+@media only screen and (max-width: 40.063em) {
+	#schild {
+		width: 40%;
+	}
+
+	.grid-container {
+		margin: -80px 0 -40px;
+	}
+
+	.wt-1, h1, .auth-content {
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 2.2em !important;
+	}
+
+	.cta{
+		display: block;
+		margin: 0 auto;
+	}
+
+	#grid-content, #support-content, #testimonial-content {
+		padding: 20px;
+	}
+
+	#svg {
+		margin-top: 25px;
+	}
+
+	.auth-img {
+		margin: 20px 0;
+	}
+}
+
+@media only screen and (max-width: 64.063em) {
+	#schild {
+		width: 80%;
+		margin-top: 80px;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	#support-content {
+		padding: 20px;
+	}
+
+	#svg {
+		margin-top: 45px;
+	}
+}
