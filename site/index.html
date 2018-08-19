@@ -7,11 +7,16 @@
     <link rel="stylesheet" href="css/foundation.css"/>
     <link rel="stylesheet" href="css/custom.css"/>
     <link rel="stylesheet" href="css/animations.css"/>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/source-sans-pro" type="text/css"/>
     <script src="js/vendor/modernizr.js"></script>
-    <script src="js/script.js"></script>
     <script src="js/vendor/jquery.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .mySlides {
+            display: none;
+        }
+    </style>
 </head>
 <body>
 <div class="large-12" id="top-nav">
@@ -19,17 +24,14 @@
         <div class="small-4 columns">
             <a href="#"><img src="images/logo.png"></a>
         </div>
-        <div class="small-8 columns">
-            <a href="#"><img src="images/menu.png" id="menu"></a>
-        </div>
     </div>
 </div>
-<div class="large-12" id="top-content">
+<div class="large-12" id="top-section">
     <div class="row">
-        <div class="medium-6 columns grid-container">
+        <div class="small-4 medium-3 large-4 columns grid-container">
             <img src="images/schild.png" id="schild"/>
         </div>
-        <div class="medium-6 columns" id="top-text">
+        <div class="small-12 medium-7 large-6 columns" id="top-text">
             <h1>Kerberus Diepenbeek</h1>
             <p class="wt-l">Kerberus is een van de grootste en zeker een van de
                 meest actieve studentenverenigingen van Diepenbeek.
@@ -66,49 +68,91 @@
         </div>
     </div>
 </div>
-
-<div class="large-12" id="support-content">
+<div class="large-12" id="photoslider-content">
     <div class="row">
-        <div class="medium-6 columns">
-            <embed src="watch.svg" id="svg">
-        </div>
-        <div class="medium-6" columns>
-            <h1>Fast support</h1>
-            <p class="wt-l">Nee help? Not a problem at all. Instant support is provided ar no extea cost to all
-                customers.</p>
+        <div class="w3-content w3-display-container large-10" id="photoslider">
+            <div id="photoslider-photos">
+                <img class="mySlides"
+                     src="/Users/dennis/Dropbox/School/Italent/long_scrolling_site/site/images/Banner3.png"
+                     style="width:100%">
+                <img class="mySlides"
+                     src="/Users/dennis/Dropbox/School/Italent/long_scrolling_site/site/images/Banner2.png"
+                     style="width:100%">
+                <img class="mySlides"
+                     src="/Users/dennis/Dropbox/School/Italent/long_scrolling_site/site/images/Banner1.png"
+                     style="width:100%">
+                <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
         </div>
     </div>
 </div>
-<div class="large-12" id="testimonial-content">
+<div class="large-12" id="history-section">
+    <div class="row">
+        <div class="medium-12 columns" id="history-content">
+            <img align="right" id="mythe-image" src="images/mythe.png">
+            <h1>Het ontstaan van Kerberus</h1>
+            <p class="wt-l">Ergens begin 1975 werden diploma's ingenieur in Europa
+                geharmoniseerd en onstond de opleiding "Industrieel
+                Ingenieur - 4 jaar" in plaats van 'Technisch Ingenieur' dat
+                tot dan toe 3 jaar zwoegen was. Ook op de nieuwe KIHL
+                werd deze opleiding in het lessenpakket opgenomen. De KIHL
+                was in die tijd een samenraapsel van 3 scholen en locaties:
+                Theorie-lessen op de 7de en 8de etage van de TT-torens in
+                Hasselt praktijk EM in de lokalen van de technische school aan de andere
+                kant van Hasselt praktijk Chemie in Sint-Truiden.
+                </br>
+                </br>
+                Omdat elk zichzelf-respecterend departement een studentenvereniging met zich verbonden heeft, werd
+                besloten ook voor deze opleiding een vereniging op te richten. Ematec (technische ingenieurs) en
+                Sarchinium (graduaten scheikunde te Velm), werden in 1978 opgedoekt en hieruit verrees Kerberus, de naam
+                en het logo (de hond met de drie koppen) verwezen naar de 3 scholen. Als kleuren werden blauw en geel
+                gekozen. Onder toezicht van toenmalig directeur Pater Bollen kreeg Kerberus lokaal 69 toegewezen als
+                studentenlokaal. In dit lokaal zijn menig beroemde/beruchte feestjes en cantussen gehouden, maar met de
+                verhuis naar de nieuwe lokalen in Diepenbeek kwam dit tot een eind. Natuurlijk staat Kerberus Diepenbeek
+                nog altijd garant voor een dik feestje!
+            </p>
+        </div>
+    </div>
+</div>
+<div class="large-12" id="song-section">
     <img style="height: 1px;width: 1px; position: fixed;" src="">
     <div class="row">
-        <div class="medium-6 columns">
-            <div class="row">
-                <div class="medium-4 columns auth-img">
-                    <img src="images/author-1.png">
-                </div>
-                <div class="medium-8 columns auth-content">
-                    <span class="title">Gary SImon</span>
-                    <p>CEO of company</p>
-                    <span class="qoute">My experience with gridhost had been excellent. THe setop was quick ande os amwausasy for suppor.Hallo ook ik ben Dennis</span>
-                </div>
-            </div>
+        <div class="medium-12 columns song-content" align="center">
+            <h1>Kerberuslied</h1>
+            <p>
+                Waar in 't Diepenbeeks heideland</br>
+                't KHLIMerslied weerklinkt.
+                </br>
+                En de brede Demerstroom</br>
+                door de vlakte vloeit,</br>
+                zijn studenten vrij en blij</br>
+                als Kerberus troont.</br>
+                <br>
+                <br>
+                Daar is mijn studentenland</br>
+                Diepenbeeks dierbaar oord (bis)</br>
+                <br/>
+                <br/>
+                Waar ook ieder goed student</br>
+                steeds een liefje vindt</br>
+                en ook elk Kerberuslid</br>
+                vaak zn pintje drinkt.</br>
+                Waar de toon der docenten klinkt</br>
+                voor ieder Technoloog.</br>
+                </br>
+                </br>
+                Daar is mijn studentenland</br>
+                Diepenbeeks dierbaar oord (bis)</br>
+            </p>
         </div>
-        <div class="medium-6 columns">
-            <div class="row">
-                <div class="medium-4 columns auth-img">
-                    <img src="images/author-2.png">
-                </div>
-                <div class="medium-8 columns auth-content">
-                    <span class="title">Lady Dye</span>
-                    <p>CEO of company</p>
-                    <span class="qoute">My experience with gridhost had been excellent. THe setop was quick ande os amwausasy for suppor.Hallo ook ik ben Dennis</span>
-                </div>
-            </div>
-        </div>
+
     </div>
 </div>
 <script src="js/foundation.min.js"></script>
-<script type="text/javascript" src="js/slider.js"></script>
+<script>
+    $(document).foundation();
+</script>
+<script src="js/slider.js"></script>
 </body>
 </html>
