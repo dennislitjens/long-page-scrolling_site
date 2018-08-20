@@ -1,0 +1,221 @@
+.clearfix {
+	display:block;
+	clear:both;
+}
+
+#top-nav {
+	background-color: white;
+	padding: 18px 0;
+	position: fixed;
+	z-index: 5;
+	width: 100%;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateZ(0);
+}
+
+#menu {
+	float: right;
+}
+
+#introduction-section{
+	background: url("../images/bg.jpg") repeat-x top center;
+	background-size:cover ; /*cover all element*/
+	padding: 130px 0 80px 0;
+}
+
+#activity-section{
+	background: url("../images/grid-bg.png");
+	padding: 80px;
+}
+
+#activity-section h2 {
+	margin-top: -20px;
+	padding-bottom:20px;
+}
+
+.slides{
+	width: 100%;
+}
+
+h1, .wt-1, .cta, h2, p, span, h4 {
+	font-family: 'SourceSansProRegular';
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1, .wt-l, h4{
+	color: #fff;
+}
+
+h1 {
+	font-size: 4em;
+	margin-top: 50px;
+}
+
+.wt-l {
+	font-size: 1.3em;
+	line-height: 1.5em;
+	padding-bottom: 25px;
+}
+/*Hoofdsectie*/
+
+.social-buttons {
+	width: 50%;
+}
+
+.more-button {
+	position: absolute;
+	z-index: 10;
+	margin-top: -25%;
+	margin-left: -25%;
+	margin-right: 25%;
+}
+
+/*Photoslider*/
+
+#photoslider-content {
+	background-color: #368288;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#photoslider-photos {
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+h2 {
+	text-align: center;
+	margin: -10px 0 80px 0;
+	font-size: 3em;
+}
+
+.sub-title {
+	display:block;
+	font-size: 1.7em;
+	margin: 20px 0 10px 0;
+}
+
+.activities{
+	text-align: center;
+	z-index: 1;
+	margin-top: 25px;
+}
+
+p {
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+
+/*History section*/
+
+#history-section {
+	background: url("../images/honeycomb-bg.png");
+	padding: 150px;
+}
+
+#mythe-image{
+	width: 35%;
+}
+
+#history-content {
+	margin-top: -90px;
+	margin-bottom: -90px;
+}
+
+/*Song section*/
+
+#song-section{
+	background: #f0f0f0 url("../images/note.png") 20% 30% fixed no-repeat;
+	padding: 120px;
+	margin-bottom: 500px;
+}
+
+.song-content {
+	margin-top: -90px;
+}
+
+.song-content h1 {
+	color: black;
+}
+
+.title {
+	font-size: 1.7em;
+}
+
+.fadeInBlock {
+	opacity:0;
+}
+
+@media only screen and (max-width: 40.063em) {
+
+	.grid-container {
+		margin: -80px 0 -40px;
+	}
+
+	.wt-1, h1, .song-content {
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 2.2em !important;
+	}
+
+	#activity-section, #history-section, #song-section {
+		padding: 20px;
+	}
+
+	#top-text {
+		margin-top: 40px;
+		text-align: center;
+	}
+
+	#schild {
+		margin-top: 30px;
+	}
+
+	#activity-section h2 {
+		margin-top: 30px;
+	}
+
+	.more-button {
+		position: absolute;
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 64.063em) {
+	h1 {
+		font-size: 0.1em;
+	}
+
+	#history-section {
+		padding: 20px;
+	}
+
+	.content-header {
+		font-size: 2em;
+	}
+
+	.content-p {
+		font-size: 1.3em;
+	}
+
+	#photoslider-content {
+		background-color: white;
+	}
+
+	#history-section {
+		margin-top: -50px;
+	}
+
+	#history-content {
+		margin-top: 20px;
+		margin-bottom: 0px;
+	}
+
+	#song-content {
+		margin-bottom: 0px;
+	}
+}
